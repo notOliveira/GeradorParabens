@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerador de texto de aniversário!"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se você tem dificuldades de escrever um texto de aniversário para uma pessoa querida, esse aplicativo vai te ajudar a realizar essa tarefa!"
+        android:textSize="18dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o nome do aniversariante"
+        android:paddingTop="30dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite aqui..."
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/generateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gerar texto!"
+        android:backgroundTint="#A5A5A5"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+        />
+
+
+</LinearLayout>
